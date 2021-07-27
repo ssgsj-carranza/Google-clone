@@ -23,6 +23,7 @@ export default function Home() {
           <p className='link'>Images</p>
           {/* Icon */}
           {/* Avatar */}
+          <Avatar/>
         </div>
       </header>
       {/* Body */}
