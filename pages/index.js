@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Avatar from '../components/Avatar';
+import {MicroPhoneIcon, ViewGridIcon} from '@heroicons/react/solid';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
           <p className='link'>Gmail</p>
           <p className='link'>Images</p>
           {/* Icon */}
+          <ViewGridIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'/>
           {/* Avatar */}
           <Avatar url='https://media.comicbook.com/2018/09/goku-dragon-ball-super-1135574-1280x0.jpeg'/>
         </div>
