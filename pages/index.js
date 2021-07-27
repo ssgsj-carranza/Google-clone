@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Avatar from '../components/Avatar';
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
           <p className='link'>Images</p>
           {/* Icon */}
           {/* Avatar */}
-          <Avatar/>
+          <Avatar url='https://media.comicbook.com/2018/09/goku-dragon-ball-super-1135574-1280x0.jpeg'/>
         </div>
       </header>
       {/* Body */}
