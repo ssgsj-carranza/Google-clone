@@ -50,6 +50,7 @@ export default function Home() {
         </form>
       
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
