@@ -20,4 +20,6 @@ export default Search;
 
 export async function getServerSideProps(context) {
     const useDummyData = false;
+
+    const data = await fetch(`https://www.googleapis.com/customsearch/v1`)
 }
