@@ -1,11 +1,17 @@
 import HeaderOption from "./HeaderOption"
+import {DotsVerticalIcon, MapIcon, NewspaperIcon, PhotographIcon, PlayIcon, SearchIcon} from "@heroicons/react/outline";
 
 function HeaderOptions() {
     return (
         <div>
             {/*left section */}
             <div className="flex space-x-6">
-               <HeaderOption /> 
+               <HeaderOption Icon={SearchIcon} title='All' selected/> 
+               <HeaderOption Icon={PhotographIcon} title='Images'/> 
+               <HeaderOption Icon={PlayIcon} title='Videos'/> 
+               <HeaderOption Icon={NewspaperIcon} title='News'/> 
+               <HeaderOption Icon={MapIcon} title='Maps'/> 
+               <HeaderOption Icon={DotsVerticalIcon} title='More'/> 
             </div>
             {/* right section*/}
             <div className="flex space-x-4">
